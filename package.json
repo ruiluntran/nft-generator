@@ -1,0 +1,36 @@
+{
+  "name": "nft-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ruiluntran/nft-generator.git"
+  },
+  "author": "ruiluntran.eth",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ruiluntran/nft-generator/issues"
+  },
+  "homepage": "https://github.com/ruiluntran/nft-generator#readme",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.3",
+    "@nomiclabs/hardhat-waffle": "^2.0.1",
+    "@openzeppelin/contracts": "^4.4.1",
+    "@truffle/hdwallet-provider": "^2.0.0",
+    "chai": "^4.3.4",
+    "ethereum-waffle": "^3.4.0",
+    "ethers": "^5.5.2",
+    "hardhat": "^2.8.0"
+  },
+  "dependencies": {
+    "colors": "^1.4.0",
+    "dotenv": "^10.0.0",
+    "ipfs-core": "^0.13.0",
+    "prompt": "^1.2.0",
+    "web3": "^1.6.1"
+  }
+}
