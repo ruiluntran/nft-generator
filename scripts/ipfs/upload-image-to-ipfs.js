@@ -31,7 +31,7 @@ async function uploadImageToIPFS(fileName) {
 
   console.info(colors.rainbow('##################'));
   console.info(colors.cyan.bold('CID'), colors.cyan(cid.toString()));
-  console.info(colors.cyan.bold('Url'), colors.cyan(cid.toString('https://ipfs.io/ipfs/' + cid + '/' + fileName)));
+  console.info(colors.cyan.bold('Url'), colors.cyan('https://ipfs.io/ipfs/' + cid.toString() + '/' + fileName));
   console.info(colors.rainbow('##################'));
 }
 
