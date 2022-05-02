@@ -34,7 +34,7 @@ async function uploadMetaData(name, imageCIDPath, description, attributes) {
 
   console.info(colors.rainbow('##################'));
   console.info(colors.cyan.bold('CID'), colors.cyan(cid.toString()));
-  console.info(colors.cyan.bold('Url'), colors.cyan(cid.toString('https://ipfs.io/ipfs/' + cid)));
+  console.info(colors.cyan.bold('Url'), colors.cyan('https://ipfs.io/ipfs/' + cid.toString()));
   console.info(colors.rainbow('##################'));
 
 }
